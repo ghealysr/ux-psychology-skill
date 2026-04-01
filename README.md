@@ -1,12 +1,14 @@
 # UX Psychology Skill for Claude Code
 
-> Turn behavioral psychology research into actionable design decisions. 69 principles from NN/g, Kahneman, Norman, and Cialdini — mapped to specific page types and components.
+> Turn behavioral psychology research into actionable design decisions. 65 principles from NN/g, Kahneman, Norman, and Cialdini — mapped to specific page types and components.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## What This Does
 
-When you're building a landing page, pricing page, onboarding flow, or any UI where user behavior matters — this skill surfaces the 3-5 most relevant psychology principles and tells you how to apply them.
+You built a page. It looks good. But is it *working*?
+
+This skill is the psychology review layer. After you design or build a landing page, pricing page, checkout flow, or any UI where user behavior matters — run it through this skill. It surfaces the 3-5 most relevant behavioral psychology principles and tells you exactly what's missing, what's working, and what to change.
 
 It's an **advisory layer**, not a directive. It informs design decisions without overriding your creative judgment, brand identity, or accessibility requirements.
 
@@ -19,14 +21,14 @@ It's an **advisory layer**, not a directive. It informs design decisions without
 ```bash
 # Clone into your Claude Code skills directory
 cd ~/.claude/skills
-git clone https://github.com/nuclearmarmalade/ux-psychology-skill.git ux-psychology
+git clone https://github.com/ghealysr/ux-psychology-skill.git ux-psychology
 ```
 
 Or for a project-specific install:
 
 ```bash
 cd your-project/.claude/skills
-git clone https://github.com/nuclearmarmalade/ux-psychology-skill.git ux-psychology
+git clone https://github.com/ghealysr/ux-psychology-skill.git ux-psychology
 ```
 
 ### Use
@@ -37,42 +39,44 @@ In Claude Code, just ask:
 "What psychology principles apply to my pricing page?"
 "Review this homepage through a psychology lens"
 "Design a conversion sequence for newsletter signups"
+"I just built a checkout flow — what am I missing psychologically?"
 ```
 
 The skill activates automatically when you're working on pages, components, or flows where user behavior matters.
 
 ## What's Inside
 
-### 69 Principles Across 11 Categories
+### 65 Principles Across 11 Categories
 
 | Category | Principles | Core Insight |
 |----------|-----------|--------------|
 | Attention | 4 | Users see less than you think |
 | Gestalt | 8 | Visual grouping drives comprehension |
-| Memory | 12 | Recognition beats recall; chunk everything |
+| Memory | 10 | Recognition beats recall; chunk everything |
 | Sensemaking | 3 | Mental models shape expectations |
 | Decision Making | 5 | Fewer choices, clearer outcomes |
 | Motor/Interaction | 3 | Big targets, fast responses |
 | Motivation | 4 | Autonomy + competence + relatedness |
 | Cognitive Biases | 10 | Defaults persist; first impressions anchor |
-| Persuasion | 12 | Trust before ask; prove before promise |
+| Persuasion | 9 | Trust before ask; prove before promise |
 | Emotion | 6 | Beautiful feels easier; delight earns loyalty |
 | Ethics | 3 | Bright line between persuasion and manipulation |
 
 ### Page-Type Prescriptions
 
-Pre-built psychology recommendations for 10 common page types:
+Pre-built psychology recommendations for 11 common page types:
 
 - **Homepage / Landing Page** — First impressions, anchoring, social proof
 - **Pricing / Subscription** — Anchoring, loss aversion, default effect
-- **Picks / Data Dashboard** — Chunking, spatial memory, satisficing
+- **Data Dashboard** — Chunking, spatial memory, satisficing
 - **Onboarding / Sign-Up** — Progressive commitment, cognitive load, Zeigarnik
 - **About / Trust Page** — Authority, hierarchy of trust, transparency
 - **Interactive Tools** — Self-determination, flow state, immediate feedback
 - **E-commerce Product** — Scarcity, social proof, loss aversion
 - **SaaS Feature Page** — Peak-end rule, progressive disclosure, anchoring
 - **Blog / Content** — Serial position, information scent, curiosity gap
-- **Settings / Account** — Default effect, recognition over recall, error prevention
+- **Checkout** — Cognitive load, transparency, trust signals
+- **Settings / Account** — Default effect, recognition over recall, reversibility
 
 ### Anti-Patterns (Explicitly Banned)
 
@@ -83,7 +87,7 @@ Pre-built psychology recommendations for 10 common page types:
 - Misdirection (visual tricks for wrong clicks)
 - Fake social proof (fabricated testimonials)
 
-## How It Weighs Against Other Skills
+## How It Weighs Against Other Concerns
 
 Psychology principles are **one input among many**. The hierarchy:
 
@@ -102,7 +106,7 @@ ux-psychology/
 ├── README.md                         # This file
 ├── LICENSE                           # MIT License
 ├── knowledge/
-│   ├── principles.md                 # All 69 principles with definitions
+│   ├── principles.md                 # All 65 principles with definitions
 │   ├── page-prescriptions.md         # Page-type → principle mappings
 │   └── data/
 │       ├── principles.csv            # Machine-readable principle database
@@ -112,7 +116,7 @@ ux-psychology/
 └── examples/
     ├── saas-landing-review.md        # Example: SaaS landing page review
     ├── ecommerce-checkout-review.md  # Example: E-commerce checkout review
-    └── sports-subscription-review.md # Example: Sports subscription review
+    └── subscription-review.md        # Example: Subscription conversion review
 ```
 
 ## Academic Foundations
@@ -140,7 +144,3 @@ PRs welcome. If you want to add a principle:
 ## License
 
 MIT — use it however you want. Attribution appreciated but not required.
-
-## Author
-
-Built by [Nuclear Marmalade](https://nuclearmarmalade.com) as part of the Buzzy Bets web design system. Released publicly because nobody should have to reinvent the wheel on behavioral psychology for web design.

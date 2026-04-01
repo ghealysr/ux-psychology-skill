@@ -4,11 +4,13 @@
 
 ## When to Use
 
-Invoke when building pages, components, or flows where user behavior matters:
+Invoke after building or designing pages, components, or flows. The skill works best as a **review layer** — build first, then run the psychology lens to find what you're missing:
+
 - Landing pages, pricing pages, onboarding flows
 - Subscription/conversion funnels
 - Dashboard layouts and data presentation
 - Navigation and information architecture
+- E-commerce product pages and checkout flows
 - Any page where you want users to take a specific action
 
 ## How to Weight
@@ -48,18 +50,18 @@ Returns: Ordered principle application with rationale.
 | Category | Principles | Core Insight |
 |----------|-----------|--------------|
 | Attention | 4 | Users see less than you think |
-| Gestalt | 10 | Visual grouping drives comprehension |
-| Memory | 12 | Recognition beats recall; chunk everything |
+| Gestalt | 8 | Visual grouping drives comprehension |
+| Memory | 10 | Recognition beats recall; chunk everything |
 | Sensemaking | 3 | Mental models shape expectations |
 | Decision Making | 5 | Fewer choices, clearer outcomes |
 | Motor/Interaction | 3 | Big targets, fast responses |
 | Motivation | 4 | Autonomy + competence + relatedness |
 | Cognitive Biases | 10 | Defaults persist; first impressions anchor |
-| Persuasion | 12 | Trust before ask; prove before promise |
+| Persuasion | 9 | Trust before ask; prove before promise |
 | Emotion | 6 | Beautiful feels easier; delight earns loyalty |
 | Ethics | 3 | Bright line between persuasion and manipulation |
 
-See `knowledge/principles.md` for the full database.
+Total: **65 principles** — see `knowledge/principles.md` for the full database.
 See `knowledge/page-prescriptions.md` for page-type mappings.
 
 ## Anti-Patterns (Never Do)

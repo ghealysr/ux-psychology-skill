@@ -27,7 +27,7 @@
 | 1. Headline clarity | First Impressions | Value proposition in under 3 seconds |
 | 2. Anchor metric | Anchoring | Lead with your strongest number |
 | 3. Visual credibility | Aesthetic-Usability | Polish signals trustworthiness |
-| 4. Reciprocity offer | Reciprocity | "Free guide" / "weekly picks" / "tool access" |
+| 4. Reciprocity offer | Reciprocity | "Free guide" / "weekly insights" / "tool access" |
 | 5. Minimal friction | Cognitive Load | Email field only — name can come later |
 | 6. Action-oriented CTA | Commitment | "Get the Guide" not "Submit" |
 

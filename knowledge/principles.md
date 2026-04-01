@@ -1,6 +1,6 @@
 # UX Psychology Principles Database
 
-> 69 actionable principles derived from NN/g research. Each includes: definition, when it applies, and a one-line design implication. Use as reference, not checklist.
+> 65 actionable principles derived from NN/g research. Each includes: definition, when it applies, and a one-line design implication. Use as reference, not checklist.
 
 ---
 
@@ -139,7 +139,7 @@
 → Build products people want to use, not products that bribe usage.
 
 **Variable Rewards** — Unpredictable rewards are more engaging than predictable ones.
-→ Content that varies daily (picks, scores, character reactions) creates habit loops.
+→ Content that varies daily (new data, updated recommendations, fresh insights) creates habit loops.
 
 ---
 
@@ -164,13 +164,13 @@
 → Test with real users; your intuition about "obvious" is usually wrong.
 
 **Framing Effect** — How information is presented changes interpretation.
-→ "64.9% win rate" vs. "wins 2 out of 3" — same data, different impact.
+→ "93% uptime" vs. "7 hours of downtime per month" — same data, different impact.
 
 **Functional Fixedness** — People get stuck on familiar solutions.
 → Innovative interfaces need gentle onboarding to break mental models.
 
 **Sunk Cost** — Time invested makes people reluctant to leave.
-→ Users who've built a lineup, customized settings, or tracked bets feel invested.
+→ Users who've customized a dashboard, saved preferences, or built a collection feel invested.
 
 **Endowment Effect** — People overvalue what they already have.
 → Free trials work because giving something then taking it away feels like loss.
@@ -180,10 +180,10 @@
 ## 9. PERSUASION & TRUST
 
 **Reciprocity** — Give something valuable before asking for anything.
-→ Free picks, free tools, free content: earn trust before requesting payment.
+→ Free tools, free content, free trials: earn trust before requesting payment.
 
 **Social Proof** — People follow what others do, especially in uncertainty.
-→ Real numbers (users, bets tracked, picks made) outperform vague claims.
+→ Real numbers (active users, projects completed, results delivered) outperform vague claims.
 
 **Scarcity** — Limited availability increases perceived value.
 → Only use when genuinely scarce (founders spots, seasonal offers). Never fake it.
@@ -195,7 +195,7 @@
 → Character personality, conversational tone, and shared identity increase connection.
 
 **Commitment/Consistency** — Small commitments lead to larger ones.
-→ Free account → build lineup → track picks → subscribe. Each step feels natural.
+→ Free account → explore features → save preferences → subscribe. Each step feels natural.
 
 **Prominence-Interpretation** — Users notice something, then judge it.
 → If they don't see it, they can't trust it. Make credibility signals visible.
@@ -204,7 +204,7 @@
 → Don't ask for the sale at level 1. Earn each level sequentially.
 
 **Creepiness-Convenience** — Personalization has a boundary.
-→ Helpful recommendations: good. "We noticed you lost your last 3 bets": creepy.
+→ Helpful recommendations: good. "We noticed you've been struggling lately": creepy.
 
 ---
 
@@ -223,10 +223,10 @@
 → The first screen must earn trust instantly. No second chances.
 
 **ELIZA Effect** — People attribute personality to systems that respond conversationally.
-→ Character-driven interfaces (like Buzzy) create emotional connection with the product.
+→ Conversational interfaces create emotional connection — users engage more deeply when a system feels like it has personality.
 
 **Completion Joy** — Finishing a task feels rewarding on its own.
-→ Celebrate completions (lineup submitted, pick confirmed) — don't just move on.
+→ Celebrate completions (form submitted, order confirmed, goal reached) — don't just move on.
 
 ---
 
