@@ -23,14 +23,14 @@ This skill is the psychology review layer. After you design or build any UI wher
 ```bash
 # Clone into your Claude Code skills directory
 cd ~/.claude/skills
-git clone https://github.com/ghealysr/ux-psychology-skill.git ux-psychology
+git clone https://github.com/Nuclear-Marmalade/ux-psychology-skill.git ux-psychology
 ```
 
 Or for a project-specific install:
 
 ```bash
 cd your-project/.claude/skills
-git clone https://github.com/ghealysr/ux-psychology-skill.git ux-psychology
+git clone https://github.com/Nuclear-Marmalade/ux-psychology-skill.git ux-psychology
 ```
 
 Or manually: copy the entire directory into `~/.claude/skills/ux-psychology/` or `your-project/.claude/skills/ux-psychology/`. Claude Code will discover the `SKILL.md` automatically.
