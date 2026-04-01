@@ -1,6 +1,10 @@
 # UX Psychology Skill for Claude Code
 
-> Turn behavioral psychology research into actionable design decisions. 65 principles from NN/g, Kahneman, Norman, and Cialdini — mapped to specific page types and components.
+65 behavioral psychology principles → actionable design decisions.
+
+Drop this skill into Claude Code and it will surface the 3-5 most relevant psychology principles for whatever you're building — landing pages, pricing, onboarding, dashboards, checkout flows — with specific implementation guidance and code examples, not abstract theory.
+
+Built on NN/g, Kahneman, Norman, and Cialdini. Ethics-first — dark patterns are explicitly documented as anti-patterns.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,9 +12,7 @@
 
 You built a page. It looks good. But is it *working*?
 
-This skill is the psychology review layer. After you design or build a landing page, pricing page, checkout flow, or any UI where user behavior matters — run it through this skill. It surfaces the 3-5 most relevant behavioral psychology principles and tells you exactly what's missing, what's working, and what to change.
-
-It's an **advisory layer**, not a directive. It informs design decisions without overriding your creative judgment, brand identity, or accessibility requirements.
+This skill is the psychology review layer. After you design or build any UI where user behavior matters — run it through this skill. It identifies which behavioral principles are at work (intentionally or not), surfaces missed opportunities, flags anti-patterns, and recommends specific changes down to the code level.
 
 **This is NOT a dark patterns toolkit.** Every principle is framed for ethical application. Manipulation techniques are explicitly listed as anti-patterns.
 
@@ -31,6 +33,8 @@ cd your-project/.claude/skills
 git clone https://github.com/ghealysr/ux-psychology-skill.git ux-psychology
 ```
 
+Or manually: copy the entire directory into `~/.claude/skills/ux-psychology/` or `your-project/.claude/skills/ux-psychology/`. Claude Code will discover the `SKILL.md` automatically.
+
 ### Use
 
 In Claude Code, just ask:
@@ -40,6 +44,7 @@ In Claude Code, just ask:
 "Review this homepage through a psychology lens"
 "Design a conversion sequence for newsletter signups"
 "I just built a checkout flow — what am I missing psychologically?"
+"Review my onboarding for cognitive load issues"
 ```
 
 The skill activates automatically when you're working on pages, components, or flows where user behavior matters.
@@ -62,6 +67,10 @@ The skill activates automatically when you're working on pages, components, or f
 | Emotion | 6 | Beautiful feels easier; delight earns loyalty |
 | Ethics | 3 | Bright line between persuasion and manipulation |
 
+### Self-Contained SKILL.md
+
+The `SKILL.md` works on its own — it includes inline page-type prescriptions, a decision process, and code-level implementation examples. Claude Code doesn't need to read any other file to give you useful output. The `knowledge/` directory provides depth when you need it.
+
 ### Page-Type Prescriptions
 
 Pre-built psychology recommendations for 11 common page types:
@@ -78,6 +87,14 @@ Pre-built psychology recommendations for 11 common page types:
 - **Checkout** — Cognitive load, transparency, trust signals
 - **Settings / Account** — Default effect, recognition over recall, reversibility
 
+### Code-Level Examples
+
+The skill includes before/after code for key principles:
+- **Anchoring** — pricing tier layout that creates a visual anchor
+- **Loss Aversion** — CTA copy that frames around what users lose
+- **Zeigarnik Effect** — stepped onboarding with progress indication
+- **Cognitive Load** — guest checkout vs. forced account creation
+
 ### Anti-Patterns (Explicitly Banned)
 
 - Fake scarcity counters
@@ -86,6 +103,8 @@ Pre-built psychology recommendations for 11 common page types:
 - Forced continuity (hard-to-cancel subscriptions)
 - Misdirection (visual tricks for wrong clicks)
 - Fake social proof (fabricated testimonials)
+- Dark defaults (pre-checked opt-ins)
+- Roach motel patterns (easy in, impossible out)
 
 ## How It Weighs Against Other Concerns
 
@@ -102,9 +121,11 @@ If a psychology principle conflicts with good design, good design wins.
 
 ```
 ux-psychology/
-├── SKILL.md                          # Claude Code skill definition
+├── SKILL.md                          # Skill definition (self-contained)
 ├── README.md                         # This file
 ├── LICENSE                           # MIT License
+├── CHANGELOG.md                      # Version history
+├── CONTRIBUTING.md                   # How to add principles
 ├── knowledge/
 │   ├── principles.md                 # All 65 principles with definitions
 │   ├── page-prescriptions.md         # Page-type → principle mappings
@@ -132,15 +153,12 @@ This skill synthesizes research from:
 - **Paul Fitts** — Fitts's Law (target size and distance)
 - **William Hick** — Hick's Law (choice paralysis)
 
-## Contributing
-
-PRs welcome. If you want to add a principle:
-
-1. Ensure it has published academic backing (not just blog posts)
-2. Include: principle name, one-line definition, design implication
-3. Map it to at least one page type in `page-prescriptions.md`
-4. Add it to `principles.csv` for machine-readability
-
 ## License
 
 MIT — use it however you want. Attribution appreciated but not required.
+
+## Author
+
+Built by [Glen Healy](https://x.com/NukeGlen) at [Nuclear Marmalade](https://nuclearmarmalade.com) — a one-person AI design and implementation agency.
+
+Released under MIT because behavioral psychology shouldn't be gatekept behind expensive consultancies.
