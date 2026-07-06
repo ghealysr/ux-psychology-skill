@@ -1,0 +1,12 @@
+PageType,Principle1,Principle2,Principle3,Principle4,Principle5,CommonMistake
+Homepage,First Impressions,Anchoring,Social Proof,Information Scent,Aesthetic-Usability,Trying to say everything above the fold
+Pricing,Anchoring,Loss Aversion,Default Effect,Commitment/Consistency,Scarcity,Too many tiers — three max two is better
+Data Dashboard,Chunking,Spatial Memory,Satisficing,Recognition Over Recall,Variable Rewards,Showing everything at once — curation beats volume
+Onboarding,Progressive Commitment,Cognitive Load,Zeigarnik Effect,Self-Determination,Reciprocity,Asking for credit card before delivering value
+About/Trust,Authority,Hierarchy of Trust,Liking,Social Proof,Transparency,Corporate boilerplate — needs personality
+Interactive Tool,Self-Determination,Zeigarnik Effect,Sunk Cost,Completion Joy,Fitts's Law,Powerful but confusing — simplicity first
+Blog/Content,Picture Superiority,Information Scent,Peak-End Rule,Priming,Chunking,Writing for SEO bots instead of humans
+Checkout,Cognitive Load,Default Effect,Loss Aversion,Transparency,Response Time,Surprise fees or forced account creation
+Settings/Profile,Recognition Over Recall,Spatial Memory,Default Effect,Self-Determination,Reversibility,Hiding important controls in nested menus
+Search Results,Information Scent,Chunking,Satisficing,Proximity,Cognitive Load,Showing too many results without hierarchy
+E-commerce Product,Social Proof,Scarcity,Loss Aversion,Anchoring,Picture Superiority,Feature dumps instead of benefit-focused copy

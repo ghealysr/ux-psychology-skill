@@ -1,0 +1,20 @@
+{
+  "name": "ux-psychology-skill",
+  "interface": {
+    "displayName": "UX Psychology Skill"
+  },
+  "plugins": [
+    {
+      "name": "ux-psychology",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ux-psychology"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

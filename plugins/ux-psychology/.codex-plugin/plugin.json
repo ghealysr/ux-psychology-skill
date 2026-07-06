@@ -1,0 +1,35 @@
+{
+  "name": "ux-psychology",
+  "version": "0.1.0",
+  "description": "Ethics-first UX psychology review plugin for web design decisions.",
+  "author": {
+    "name": "Nuclear Marmalade",
+    "url": "https://nuclearmarmalade.com"
+  },
+  "homepage": "https://github.com/Nuclear-Marmalade/ux-psychology-skill",
+  "repository": "https://github.com/Nuclear-Marmalade/ux-psychology-skill",
+  "license": "MIT",
+  "keywords": [
+    "ux",
+    "psychology",
+    "design",
+    "review",
+    "ethics"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UX Psychology",
+    "shortDescription": "Review UI decisions through behavioral psychology.",
+    "longDescription": "An ethics-first review layer that surfaces behavioral principles, anti-patterns, and concrete UX changes for landing pages, pricing, onboarding, dashboards, checkout, and trust pages.",
+    "developerName": "Nuclear Marmalade",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Review this page through behavioral psychology.",
+      "Flag any ethical or dark-pattern risks.",
+      "Suggest concrete UX changes I can implement."
+    ]
+  }
+}

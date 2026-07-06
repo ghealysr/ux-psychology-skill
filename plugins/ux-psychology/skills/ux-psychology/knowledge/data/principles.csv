@@ -1,0 +1,65 @@
+Category,Principle,Definition,Design Implication,Weight
+Attention,Selective Attention,Users focus on one thing and miss everything else,Don't rely on peripheral elements for important info,High
+Attention,Change Blindness,People miss changes outside their focus area,Animate or highlight changes explicitly,Medium
+Attention,Banner Blindness,Users ignore anything that looks like an ad,Don't put important content in ad-shaped containers,Medium
+Attention,Inattentional Blindness,Focused users miss unexpected elements,Critical actions must be in the expected flow,High
+Gestalt,Proximity,Close elements are perceived as grouped,Spacing IS meaning — related items tight unrelated separated,High
+Gestalt,Similarity,Similar-looking elements are perceived as related,Consistent styling for similar functions,High
+Gestalt,Common Region,Items in a shared container feel grouped,Cards borders and backgrounds create implicit relationships,Medium
+Gestalt,Closure,People complete incomplete shapes mentally,Progress bars and partial reveals leverage this,Medium
+Gestalt,Continuity,Eyes follow lines and curves naturally,Align elements along clear visual paths,Medium
+Gestalt,Figure/Ground,Foreground separates from background instantly,Contrast and layering create depth and hierarchy,Medium
+Gestalt,Connectedness,Visual connections bind elements,Timelines and flow diagrams leverage explicit connections,Low
+Gestalt,Common Fate,Elements moving together are perceived as grouped,Coordinated animations signal relationship,Low
+Memory,Miller's Law,Working memory holds ~7 chunks,Keep nav items and option lists under 7,High
+Memory,Chunking,Grouped information is easier to process,Break data into digestible groups,High
+Memory,Recognition Over Recall,Showing options beats asking users to remember,Dropdowns beat free text; visual menus beat text lists,High
+Memory,Cognitive Load,Every element demands mental processing,Remove anything that doesn't serve the current task,High
+Memory,Priming,Prior exposure influences interpretation,What users see first colors everything after,Medium
+Memory,Peak-End Rule,Experiences judged by peak moment and ending,Invest in best moment and last moment of any flow,Medium
+Memory,Spatial Memory,Users remember where things are on screen,Don't move navigation or key actions between visits,High
+Memory,Picture Superiority,Images remembered better than words,Key concepts benefit from visual representation,Medium
+Memory,Zeigarnik Effect,Unfinished tasks nag more than completed ones,Progress indicators pull users back,Medium
+Memory,Power Law of Learning,Improvement is steep early then plateaus,First-time experiences matter most,Medium
+Sensemaking,Mental Models,Users approach interfaces with pre-existing expectations,Match common patterns before innovating,High
+Sensemaking,Information Scent,Users follow links that smell like what they want,Labels must clearly describe the destination,High
+Sensemaking,Information Foraging,Users assess cost vs reward before clicking,If path to value looks expensive users bail,High
+Decision,Hick's Law,More choices equals longer decision time,Reduce options to essentials,High
+Decision,Satisficing,Users pick the first acceptable option,Put best option where they'll see it first,High
+Decision,Loss Aversion,Losing hurts ~2x more than gaining,Frame around what they'll miss not just what they gain,Medium
+Decision,Anchoring,First number seen sets reference point,Show high-value metric or price first,Medium
+Decision,Default Effect,Most users never change defaults,Set defaults to best outcome for the user,High
+Motor,Fitts's Law,Larger closer targets are faster to click,Primary CTAs large and near current focus,High
+Motor,Response Time,0.1s instant 1s responsive 10s loses attention,Skeleton screens for anything over 1s,High
+Motor,Interaction Cost,Every click scroll keypress is a cost,Minimize steps to complete any action,High
+Motivation,Self-Determination,People need autonomy competence and relatedness,Let users choose help them succeed connect them to others,High
+Motivation,Fresh Start Effect,New time periods motivate new commitments,Monday and first of month are optimal for prompts,Low
+Motivation,Variable Rewards,Unpredictable rewards are more engaging,Daily-varying content creates habit loops,Medium
+Motivation,Intrinsic Over Extrinsic,Internal motivation outlasts rewards,Build products people want to use not products that bribe usage,High
+Bias,Confirmation Bias,People seek info that confirms beliefs,Present balanced information; highlight unexpected wins,Medium
+Bias,Anchoring Bias,First info disproportionately influences judgment,Lead with strongest stat or testimonial,Medium
+Bias,Availability Heuristic,Recent events feel more common,Recent successes displayed prominently feel stronger,Medium
+Bias,Negativity Bias,Negative experiences weigh heavier,One bad experience can erase ten good ones,High
+Bias,Halo Effect,One positive attribute colors all perception,Beautiful design makes content feel more credible,Medium
+Bias,False Consensus,Designers assume users think like they do,Test with real users — your intuition is usually wrong,High
+Bias,Framing Effect,Presentation changes interpretation,Same data framed differently creates different impact,Medium
+Bias,Sunk Cost,Time invested makes people reluctant to leave,Users who've customized settings or saved data feel invested,Medium
+Bias,Endowment Effect,People overvalue what they have,Free trials work because taking something away feels like loss,Medium
+Persuasion,Reciprocity,Give value before asking for anything,Free content or tools earn trust before payment request,High
+Persuasion,Social Proof,People follow what others do in uncertainty,Real numbers outperform vague claims,High
+Persuasion,Scarcity,Limited availability increases perceived value,Only use when genuinely scarce — never fake it,Low
+Persuasion,Authority,Expertise signals increase trust,Track records and methodology transparency build credibility,High
+Persuasion,Liking,People trust those they relate to,Brand personality and conversational tone increase connection,Medium
+Persuasion,Commitment/Consistency,Small commitments lead to larger ones,Free action then account then payment — each step natural,High
+Persuasion,Prominence-Interpretation,Users notice then judge,Credibility signals must be visible not buried,Medium
+Persuasion,Hierarchy of Trust,Trust builds through 5 levels,Don't ask for the sale at level 1 — earn each level,High
+Persuasion,Creepiness-Convenience,Personalization has a boundary,Helpful recommendations good — surveillance-style messaging bad,Medium
+Emotion,Three Processing Levels,Visceral-Behavioral-Reflective,Design must work at all three levels,High
+Emotion,Aesthetic-Usability,Beautiful things feel easier to use,Visual polish improves perceived usability,High
+Emotion,Delight,Surface delight and deep delight both matter,Deep delight (goal completion) outweighs surface animation,Medium
+Emotion,First Impressions,Formed in 50ms and color all subsequent experience,First screen must earn trust instantly,High
+Emotion,ELIZA Effect,People attribute personality to conversational systems,Conversational interfaces create emotional connection,Medium
+Emotion,Completion Joy,Finishing a task is inherently rewarding,Celebrate completions — don't just move on,Medium
+Ethics,Persuasion vs Manipulation,Persuasion respects autonomy — manipulation removes it,Stay on the persuasion side of the bright line,Critical
+Ethics,Transparency,Users should understand what they agree to,Clear pricing honest records visible terms,Critical
+Ethics,Reversibility,Users should be able to undo decisions,Easy unsubscribe easy settings change no punitive flows,Critical
