@@ -1,3 +1,8 @@
+---
+name: ux-psychology
+description: Advisory layer for web design decisions. Surfaces behavioral psychology principles for review.
+---
+
 # UX Psychology Skill
 
 > Advisory layer for web design decisions. Surfaces relevant behavioral psychology principles during page and component design. This is a **weighted input** — it informs decisions, it does not override aesthetic judgment, brand identity, or creative direction.

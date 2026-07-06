@@ -1,10 +1,15 @@
-# UX Psychology Skill for Claude Code
+# UX Psychology Skill for Claude Code and Codex
 
 65 behavioral psychology principles → actionable design decisions.
 
-Drop this skill into Claude Code and it will surface the 3-5 most relevant psychology principles for whatever you're building — landing pages, pricing, onboarding, dashboards, checkout flows — with specific implementation guidance and code examples, not abstract theory.
+Drop this skill into Claude Code or install the Codex plugin and it will surface the 3-5 most relevant psychology principles for whatever you're building — landing pages, pricing, onboarding, dashboards, checkout flows — with specific implementation guidance and code examples, not abstract theory.
 
 Built on NN/g, Kahneman, Norman, and Cialdini. Ethics-first — dark patterns are explicitly documented as anti-patterns.
+
+## Compatibility
+
+- Claude Code: use the root `SKILL.md` in `~/.claude/skills/ux-psychology/`
+- Codex: use the packaged plugin in `plugins/ux-psychology/`
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
